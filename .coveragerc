@@ -1,0 +1,5 @@
+[run]
+include = web_interactive/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
